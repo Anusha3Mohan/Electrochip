@@ -1,0 +1,90 @@
+.info_section {
+    background-color: #190734;
+    color: #ffffff; /* Set default text color to white */
+    padding: 150px;
+  }
+  
+  .info_section h6 {
+    font-weight: bold;
+  }
+  
+  .info_section .info_contact {
+    margin-top: 60px;
+    margin-bottom: 45px;
+  }
+  
+  .info_section .contact-item a {
+    color: #ffffff; 
+    text-decoration: none; 
+    margin-left: 10px;
+  }
+  
+  
+  .info_section .info_form {
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  
+  .info_section .info_form h4 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .info_section .info_form form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info_section .info_form form input {
+    background-color: #ffffff;
+    border: none;
+    flex: 2.5;
+    outline: none;
+    color: #000000;
+    min-height: 42.4px;
+    padding-left: 15px;
+  }
+  
+  .info_section .info_form form button {
+    flex: 1;
+    border: none;
+    padding: 10px 30px;
+    background-color: #4b208c;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .info_section .info_form form button:hover {
+    background-color: #5625a1;
+  }
+  
+  .info_section .box {
+    display: flex;
+  }
+  
+  .info_section .info_social {
+    display: flex;
+  }
+  
+  .info_section .info_social img {
+    width: 35px;
+    margin-right: 8px;
+  }
+  
+  .footer_section p {
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer_section p a {
+    color: #000000; 
+    text-decoration: none; 
+  }
+  
+  .footer_section p a:hover {
+    color: #000000; 
+    text-decoration: none;
+  }
