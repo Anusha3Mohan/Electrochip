@@ -1,12 +1,26 @@
-.hero_area {
+body {
+    font-family: "Poppins", sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+  }
+  
+  .hero_area {
     background-color: #f3edff;
   }
   
-  .custom_nav-container .navbar-nav {
+  .custom_nav-container {
     display: flex;
-    justify-content: center;  /* Center the navbar items */
-    align-items: center;      /* Vertically align the items */
+    justify-content: space-between; /* Space between the logo and nav items */
+    align-items: center; /* Vertically align items */
     width: 100%;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;  /* Align the navbar items to the right */
+    align-items: center;
+    margin: 0;
+    padding: 0;
   }
   
   .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -46,7 +60,6 @@
   }
   
   .custom_nav-container .nav_search-btn {
-    /* background-image: url(../images/search-icon.png); */
     background-size: 22px;
     background-repeat: no-repeat;
     background-position-y: 7px;
@@ -57,17 +70,13 @@
   }
   
   .navbar-brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    margin-right: auto;  /* Push the brand to the left */
+    margin-left: 0;  /* Ensure logo is at the left */
   }
   
   .navbar-brand img {
-    margin-right: 5px;
+    margin-right: 10px;
     width: 35px;
   }
   
@@ -131,15 +140,9 @@
     -webkit-transform: none;
     transform: none;
   }
+
+ 
   
-  .logo{
-    margin-left:90px;
-  }
-
-  .home{
-    margin-left:230px;
-  }
-
   /* Media Query for Smaller Screens (Mobile) */
   @media (max-width: 768px) {
     .custom_nav-container .navbar-nav .nav-item .nav-link {
